@@ -135,10 +135,14 @@ def firing():
     print("Defense Condition is Low Enough To Continue With Launch Sequence.")
     print("Command Will Be Sent A Message Containing Launch Code Shortly.")
     code=randint(100000, 999999)
-    code=str(code)
-    server.sendmail("Friend's gmail address here.", mail_address, code)
-    
-    
+    codestr=str(code)
+    server.sendmail("Frend's gmail address here.", mail_address, codestr)
+    code_check = int(input("Please enter launch code here./n> ")
+    if code_check == code:
+        print("Welcome to the next stage")
+    else:
+        print("Hah, you gone done goofed it, son.")
+        return
   else:
     print("Condition is not Low Enough for Firing.")
     return
