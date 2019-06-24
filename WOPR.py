@@ -136,7 +136,7 @@ def firing():
     print("Command Will Be Sent A Message Containing Launch Code Shortly.")
     code=randint(100000, 999999)
     codestr=str(code)
-    server.sendmail("Frend's gmail address here.", mail_address, codestr)
+    server.sendmail("Friend's gmail address here.", mail_address, codestr)
     code_check = int(input("Please enter launch code here./n> ")
     if code_check == code:
         print("Welcome to the next stage")
