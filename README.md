@@ -12,6 +12,3 @@ This is a program I wrote for the Raspberry Pi SBC. It turns on some LEDS.
 
 ## Side Notes
 This is still kind of a work in progress, don't judge too harshly
-
-## Licence
-I'm using a Creative Commons licence as some jerk kept stealing my programs and passing them off as his own. I'm sorry if this annoys anyone.
